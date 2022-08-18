@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 15px;
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+img{
+    border-radius: 50%;
+    height: 130px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav h3 {
+    margin: 0px 30px;
+    font-weight:lighter;
+    padding: 3px 8px;
+    transition: .2s;
+}
+.nav h3:hover{
+    background-color: rgb(182, 182, 182);
+    color: white;
+    border-radius: 5px;
+    z-index: 2
+}
+
+hr{
+    width: 500px;
+    display: flex;
+    margin-right: 10px
+}
